@@ -12,11 +12,41 @@
 }   
 
 body {
-    font-size: 100%;
-    background: url(PedradaGavea.svg);    
+    font-size: 100%;    
     background-repeat: no-repeat;
     background-size: 100%;
-            
+    animation: animate 24s ease-in-out infinite;        
+}
+
+@keyframes animate {
+    0%, 100% {
+        background-image: url(./lib/Backgrounds/PedradaGavea.svg);
+
+    }
+
+    16.66% {
+        background-image: url(./lib/Backgrounds/AgulhasNegras.svg);
+        
+    }
+
+    33.32% {
+        background-image: url(./lib/Backgrounds/FozdoIguaçu.svg);
+        
+    }
+
+    49.98% {
+        background-image: url(./lib/Backgrounds/PicoParana.svg);
+        
+    }
+
+    66.64% {
+        background-image: url(./lib/Backgrounds/SerraFina.svg);               
+    }
+    
+    83.3% {
+        background-image: url(./lib/Backgrounds/MonteRoraima.svg);               
+    }
+
 }
 
 .topo {
@@ -137,4 +167,48 @@ footer {
     box-sizing: border-box;
     border-radius: 20px;
 }
+
+.ball-transition {
+    animation: balls 24s  infinite;
+    width: 182px;
+    height: 46px;
+    left: 1052px;
+    top: 25px;
+    background-repeat: no-repeat;
+
+}
+
+@keyframes balls {
+
+    0%, 100% {
+        background-image: url(./lib/BallsTransition/1.svg);
+
+    }
+
+    16.66% {
+        background-image: url(./lib/BallsTransition/2.svg);
+        
+    }
+
+    33.32% {
+        background-image: url(./lib/BallsTransition/3.svg);
+        
+    }
+
+    49.98% {
+        background-image: url(./lib/BallsTransition/4.svg);
+        
+    }
+
+    66.64% {
+        background-image: url(./lib/BallsTransition/5.svg);               
+    }
+    
+    83.3% {
+        background-image: url(./lib/BallsTransition/6.svg);               
+    }
+
+}
+
+
 
