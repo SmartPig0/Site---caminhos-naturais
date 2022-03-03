@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500;1,600&display=swap');
+/*font-family: 'Playfair Display', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,600;1,500;1,600&display=swap');
+/*font-family: 'IBM Plex Sans', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}   
+
+body {
+    font-size: 100%;
+    background: url(PedradaGavea.svg);    
+    background-repeat: no-repeat;
+    background-size: 100%;
+            
+}
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 11px;  
+}
+
+.menu-topo {
+    display: flex;
+    gap: 36px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 15px;      
+}
+
+main {
+    border-top: 0.4px solid #ffff;
+    display: flex;
+    padding: 20px;   
+    align-items: top;
+    justify-content: space-between;
+    
+}
+
+.mensagem-app {
+    display: flex;    
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;   
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 50px;    
+}
+
+h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15px;
+}
+
+h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;    
+    }
+
+.h2-titulos {
+    font-style: normal;
+    font-size: 17px;
+    color: #F7AD19;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    justify-content: space-between;
+    
+}
+
+.b-baixarapp {
+    background-color: #429EBD;
+    width: 158px;
+    height: 52px;
+    border: 1px solid #FEFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.b-telegram {
+    background-color: #429EBD;
+    width: 158px;
+    height: 52px;
+    border: 1px solid #FEFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+footer {   
+    background-image: url(./lib/VectorWave.svg);
+    background-repeat: no-repeat;
+    background-size: 115%;      
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    }
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 20%;   
+    margin-right: 600px;
+    }
+
+.descricoes {    
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 40%;
+    align-items: center;  
+   
+}
+
+.more-button {
+    background-color: #429EBD;
+    width: 120px;
+    height: 23px;
+    border: 1px solid #FEFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
