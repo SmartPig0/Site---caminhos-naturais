@@ -179,28 +179,22 @@ footer {
 
     }
 
-    16.66% {
+    25% {
         background-image: url(./lib/BallsTransition/2.svg);
         
     }
 
-    33.32% {
+    50% {
         background-image: url(./lib/BallsTransition/3.svg);
         
     }
 
-    49.98% {
+    75% {
         background-image: url(./lib/BallsTransition/4.svg);
         
     }
 
-    66.64% {
-        background-image: url(./lib/BallsTransition/5.svg);               
-    }
-    
-    83.3% {
-        background-image: url(./lib/BallsTransition/6.svg);               
-    }
+ 
 
 }
 
